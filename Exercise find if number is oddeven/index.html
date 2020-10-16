@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<head>
+    <title>My website</title>
+    <script src="test.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body onload="run">
+    <div class="titles">
+    <div><h1 style="background-color: tomato">Input your first and second integer of a number smaller than 100</h1></div>
+    <div><h1 style="background-color: tomato">Input the digits of the year when you were born</h1></div>
+  </div>
+
+    <div class="flex-container123">
+       <div><input type = "number" id = "myNumber1" value = "0"></div>
+       <div><input type = "number" id = "myNumber2" value = "0"></div>
+       <div><input type = "number" id = "myNumber3" value = "0"></div>
+       <div><input type = "number" id = "myNumber4" value = "0"></div>
+    </div>
+
+    <div class="operations_button">
+      <div><button onclick="myFunction()">Is each integer in your number even or odd?</button></div>
+      <div><button onclick="myAddYrs()">Add the digits of your years together</button></div>
+    </div>
+
+    <div class="results_operations">
+        <p>Results for first integer:</p>
+         <p id = "result1"></p>
+         <p>Results for second integer:</p>
+         <p id = "result2"></p>
+         <p>Results for third integer:</p>
+         <p id = "result3"></p>
+         <p>Results for fourth integer:</p>
+         <p id = "result4"></p>
+         <p>Sum of year digits</p>
+         <p id = "Sum_of_Digits"></p>
+    </div>
+    </body>
